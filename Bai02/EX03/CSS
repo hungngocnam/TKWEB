@@ -1,1 +1,19 @@
-
+.body{
+  background-color: aqua;
+}
+/* Header **/
+header{
+ background-color: aquamarine;
+}
+.header{
+  background-color: aquamarine;
+ }
+footer{
+  background-color: aquamarine;
+}
+.footer{
+  background-color: aquamarine;
+}
+img{
+    width:50%;   
+}
