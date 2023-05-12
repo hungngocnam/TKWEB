@@ -1,1 +1,61 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>ngoc nam Web Design | Trang chủ</title>
+   <link rel="stylesheet" href="k.css">
+ </head>
+ <body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">ngoc nam</span> Web Design</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="x.html">Trang chủ</a></li>
+                    <li><a href="f.html">Thông tin</a></li>
+                    <li><a href="t.html">Dịch vụ</a></li>
+                </ul>
+            </nav>
+        </div>
+   </header>
+   <section id="showcase">
+        <div class="container">
+            <h1>Thiết kế website chuyên nghiệp.</h1>
+            <p>Chúng tôi cung cấp gói dịch vụ thiết kế website chuyên nghiệp, với layout được thiết kế theo yêu cầu, bảng báo giá chức năng cụ thể phù hợp với mục đích, nhu cầu của bạn !</p>
+        </div>
+   </section>
+   <section id="newsletter">
+        <div class="container">
+            <h1>Đăng ký để nhận thông báo mới từ chúng tôi</h1>
+            <form>
+                <input type="email" placeholder="Nhập Email...">
+                <button type="submit" class="button_1">Đăng ký</button>
+            </form>
+        </div>
+    </section>
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL0AAAELCAMAAAC77XfeAAAA8FBMVEX////kTSbxZSnr6+sAAADjQxLxraHrWSjkTCTvYCnxZCfr7+/wWw/r9PXkSyDxZCL6zsLydkboraP19PNzc3N+fn7j4+O3t7c/Pz/ourLlX0HiOwD5wbGVlZWqqqqHh4fwVwAcHBzjRRjxXxtaWlroVCfjQAn419H87On99PLsjXv0w7r64d3pycP2zsfzuK7pemTvn5DobVPumIjq2NX2p471l3n4u6junI3lVzXybjnzhFzmfmnnZEjpw7zq1ND3sZvpdV7mjn71nH9NTU0wMDBpaWnS0tLFxcURERHqTw/nopbmhHHzd0b0imbzgFY/HIaRAAAMEklEQVR4nO2da1vbRhCF18HGCjbiVkhBaeuaRFwDNgQSCIRAm6QNtP3//6aSsGxptTOzO9q1rOfx+ZQYWX4t70jHO0drIWS9ak70m/rhzfiBhSal5Hk/ZR9ZyL9U9k8/J49sFR4xlEv6P3OvlPtTDeibrzIv9D33lzrQNzMv9LV+9JvjHf6a/0Mt6Jtbo/1tSI/Xgz5l+lZL+lHhfpcfrgn988O/15X+p+jRXwqPuqX/yxp983uhZN3Qb4qNVPaOffOreDMVekCb0lOy4+CV9DcFfVM+38wO/a8a9CrN6ef0c/pZpH8j7Sf7/9mnly9S2UvG7NNL+/4r+25mn34jd5H9Jup17DdyBmejdvSZ74OvBEH/p2BI12Py6MXPo3+/ERR98/e8/v7Gpy94TCb9guLfAL2sN9XTjzZONqshfTKP88xaR/qYcKG29OK35i+ivvQiPRfWkz7VnH5OP5P0m+TDJH129gOj/0rTs4zPXHPNNddcc80111xzzVUXLdZZ4ips1VXhlRj4jbrKH4jDftUQbPUPxbDG9EOx2Koagq3WojiqL314JE7CqiHYCk/EcVA1BFvBsdivMf2+OKgx/YEQNaaPjE7Dq5qCKa8R0d/W1Sr4txH9TW3pbyL62hqdyOYI8ejyYtt+aVHt/L5bjxH9qVP6Fxb1UqI/jeiPXFoFq/TSsY9sjhB7Lk/4LumDvYjeqdGxSv9Woj+O6J1aBaf0B/GsQm3pkzkR36FVsEqf37XnJ/Q7Di+2Dun9nYTe5ZyIS/pBQu/SKjikT4yCcDonYpNeutT2h88zmQ6tgkP6xCi4tQo26VVGwa1VcEifGAW3VsEl/XFC79Iq2KRXGgWnVsEl/ah9ErizCjbp83v2whH9Ti3pd0b09+6sgjt6/35E79AquKMfGQUhPhL0Hl/tJb4keNkofEybnrhV8DyfrfYKWzK+bBQWR/SEVQjeL7Nl3D6eaK+bp1cbBUG1T8J3nQWu5PSrgV4T9Cej7QirEG5XQv9lF6UfGQVBtU9a65XQX0j08qV2P90Qp+8PK6G/JOjHG7bQi23/sBL6/1aw073XH294hdL7g+Uq6K+XUPqr8YZnqFXwbyuh30Xp/bPxhjfoxda7qoS+9wKj7z+NNzzH6VtVjPt9iV42CufjLQmrELDhS9Af4/RjoyDEKWUV2AefT3/SRenD08mWzqwCn17XKLi0Cnz6D5pGwaVV4NNrGwVqTqT/WAE9ZRQOJpuGuFV4qID+E24UwsymeNLCv2Ffrvj0/+BGoZHZlLAKZxXQd3WNApW0KGEV+PS4UUgSFqlwq9AIpk9/oG0UyKQF3yqw6Smj8JjZlkhagFahQ4lNL88owEaBnBOBrEJnm9LRKlPyxQo2CmT7JPyspl/2Q0I/ukxJ8EDj5FlMq7BMZtqszWPCRoG0Ci3AKiyTmTZn9BmjQM6JAFah80DNPjujz5U4nrTo3wD0j1Ojz+92lLBIhQ9gyCp01qlGtSP6JIo5EZ60gKxCZ5tqVLuiH+To8faJ1wfo302LXjYKhzn6IcsqdO6oZqkj+pxR0LAKavytquhPc/RU++QOMDrTGjlQ46ScVfCIVq8j+pxRIOdEWsCcyDKVabNFr4pilrcKVKbNFX3OKJBW4SNwsaUa1a7o8/CUVXgC6KlGtS36/F49T6LHkxb+PdMquKH3dyR6PGnh7UBWoRr6gURPWAUPGDmUVXBDLxkFMpTJtQqW6OVL7VCip9ongFV4Xw39okTPtQrToceNghAnTKsQ+ng+h5luwemDE4meaxXOdlCt/bPGkdxphhsnz+K2T9zkc6jGyYH8BJ5VoMScCdROWKQi2ifMpAWTnmictApPcJO0YNJrJyxS4VaBm7Rg0hOth/vCE55wq+DPEH0mYZGKap9Mc9xTjZOPhWdQVmFrivT6CYtUbpIWPHrdKOZEbpIWPPpV7YRFKjdJCx69fsIilZukBY9eP2ExlpNQJo/e2Chw2ydO6P9FjYKS3olV4NEbGwVHoUwevXYUcyIilNmYIr2xUXAUymTRmyQsUjkJZbLozY0CP2lhn94kYZHKiVVg0ZsbBbp9wrIKLHrKKOwpnkNahWUyjWMpnyPfcaJhFKj2iX+zztDpa0SqYxjrD9P5kFjEdLDPWQQSy+f0PgD0uFHIRTEncrH8FTaP2V0F6Ndw+obySS6Wv0LpoZHzAjcKt8onuVjTAqPvFb9kPMsgijmRixtVUXpl9dFG4UH5LCJpYZ8eOPTEHSdSwiKVi+WvEPqlLkBPGIWWyii4WdMCo78G6CmjUJwPSd6zg5UJEPqVTwA9cceJ0ii4WdMCod+9BOgpo6A+VVFrWkAXW+xEi9FfAPQso0DNKvgDIGuMXScwel2joDEfEou4UfVJbTKXsVAmQt99DWBo35qaFx4VYoUyMXrI5sg380sYaqNAJi04oUyEnmsU5IRFKiJpETJCmRi96kuGoI2CnLBIxUxaYFkFjB6goIyCnLBIxUxaYKFMmH5pF6DYI+jVRoGdtOiwRo5lo8APZSJfymD6lf8ACp5R4CctkC9lML1lo+AklInQQ0bBOGGRyn4oE6H/AkAwjQJtFQB65EwL09s2Ci5CmQg9ZBSIGQU5ijkR3j6BQ5nwKROmB40C0TgpJixS8ZIWmFVA6AGjQDVOIKNALn8VKuHRUCZCD5w7qDUsIKPATlogVgEZ9wADp3HyLHYosw+VO0S/tAvZHK5RYLdPOttPXtBSZuBV9Eu73d71BXTKoYyCqnEy+tSY7ZPo6+Hd+iAM+4VzVoF+Zbe3e/kaqlihv9hVUSWSFtEb6Lwb3gZhfhDl6OOD/ukD/PKJGAmLVOWSFtE72Np+aGQHUTtLfn0B+cOMGAmLVOWXv4rewfv1m1YwmuVpp8Nl5XIVtFc5sY2CpaRFMogez5JB1I7Je/9SwyUjRsIilbWkRfQOFj6fXwU/emtfNIZLRmyjYDlpEQ+iE73hkhEjYZHKeijTuF9LGYViFHMi66FMY3q+UXAQyjSmlxe70jcKDpIWxvT6i10VZT1pYUxvHsWcyHoo05i+hFGwv/yVMX0Jo2A/lGlMj9+zQdDjN6qaL39lTE8YBXXCIpXt5a+M6Q0WuyqKWNOicRc5MJPRY0ov98llo6BOWKQiFmWJvgDerL83eAMm9McfPvVkeJ0o5kRk0sLzW8HV+ecFzXegS3+w+sdSb1eq2CI9ahQ0kxZePwzuH+903oAW/fGXtV5XdsZKemUUcyLtpEX0EXiH21vUOyDp919fdntq8lgmRsEsaRF/BLfDd2gd4/R7F9fQQVfTg42T0aEwTFr4/SDE6himT2oUJY9lYhRYvx6S1PEDUMdqeqhGaXriqxov5RIPojNVHSvokRotSnod3CgIQS3KAiv6CPpPch1L9FGN9vQOupKeMAolQ5levyXVcZaerlGKHkxYpCodyvT7YTgY13FKr1ejJD1uFOyEMuM6biR1nNBHNbpiNFwm0k1YpLIVyhzV8YZRjVL0QBRzIps/NBZ9BD+YBx2gx42C9VBmybUsTOZDYlkOZdqlJ4yC9VBmSXrdhEUqyz80ZpmenNOdaXoK3vJvkpakz++ssNhVUXj7ZKr0L6VDjyQsUtn9oTE2/cv228LOwCjmRHjSYjr0CvJYpFGw/Zuk5vTyr5JnBEYxJ7L7m6Rm9KrhkqWnjIJtq2BAL9doUaRRIJe/ckNPHPSRSKNg2yro0GuRJ/R0z9p0TqQcPVKjCnqN5u/U6PWGS5aehp8SPV2jBQG3pubVsHmxVdIbH/Rn+VjCItXjVRBas2pFeh55/DX5Cp/+TrV/ehME6G1UTHqjGp0o+n4cPh2Z5DX2iimtcvTM4ZLMTSzqx3vGOjg67Jf9CNrsGo0Vzwudm4dkxjpePCv1EbT5w6UfBINTfMZbRyfn/Dp+yx4uO0OzTBUii3VMKhouLbMa1dHe446NOkbFrlEdRXXsu/sInmvUDXmqsnUMklupUR2VqeOiLNeojvZPB6GNQZT0i6zXqI72huXq2GmN6oh9PfamUaM6Mq/jadaojk7OG8DdD6rhMuUa1VFUx+T1OK7Rw0pqVEdYHVdeozqK6rhV+AhmpkZ1lK/jWatRHcXX46iOkwzPzNWojvaPnq7Ondbo/1mJS1wse/HzAAAAAElFTkSuQmCC">
+                <h3>Ngôn ngữ HTML5</h3>
+                <p> Ngôn ngữ đánh dấu siêu văn bản (HTML) là ngôn ngữ đánh dấu tiêu chuẩn để tạo, cấu trúc và hiển thị các trang web. HTML được dùng để phát triển ...</p>
+            </div>
+            <div class="box">
+                <img src="data:image/png;base64,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">
+                <h3>Ngôn ngữ CSS3</h3>
+                <p> CSS là viết tắt của Cascading Style Sheets, là một ngôn ngữ thiết kế được sử dụng nhằm mục đích đơn giản hóa quá trình tạo nên một website. </p>
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3zhhati52QN6NLoiWO1JfFTkDTIGPp9H34w&usqp=CAU">
+                <h3>Thiết kế đồ họa</h3>
+                <p>Thiết kế đồ hoạ là loại hình nghệ thuật ứng dụng, sản phẩm đồ họa hiện diện ở hầu hết các lĩnh vực từ truyền thông, quảng cáo, giải trí, ngành xuất bản, đặc biệt thiết kế đồ họa đóng vai trò cực kỳ quan trọng trong hoạt động kinh doanh. </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>ngoc nam Web Deisgn, Copyright © 2023</p>
+    </footer>
+</body>
+</html>
