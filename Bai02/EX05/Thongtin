@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ngoc nam Web Design | Thông tin</title>
+    <link rel="stylesheet" href="k.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Ngoc nam</span> Web Design</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="x.html">Trang chủ</a></li>
+                    <li class="current"><a href="f.html">Thông tin</a></li>
+                    <li><a href="t.html">Dịch vụ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Đăng ký để nhận thông báo mới từ chúng tôi</h1>
+            <form>
+                <input type="email" placeholder="Nhập Email...">
+                <button type="submit" class="button_1">Đăng ký</button>
+            </form>
+        </div>
+    </section>
+    <section id="main">
+        <div class="container">
+            <div id="main-col">
+                <h1 class="page-title">Về chúng tôi</h1>
+                <p>Chúng tôi kết hợp hiểu biết sâu sắc về ngành, chuyên môn kỹ thuật và nhiều thập kỷ kinh nghiệm phân phối để mang lại giá trị và tăng tốc cho các nhà cung cấp ...</p>
+                <p class="dark">Về sáng tạo, chúng ta có thể thỏa sức sáng tạo trong thiết kế website bằng cách tùy chỉnh vị trí các phần tử, màu sắc, màu nền, font chữ, thứ tự sắp xếp của các phần tử, hiệu ứng (đổ bóng, bo góc, xoay...) những điều mà HTML gần như không thể làm được.</p>
+            </div>
+            <div id="sidebar">
+                <div class="dark">
+                    <h3>Dịch vụ chúng tôi</h3>
+                    <p>Chúng tôi cung cấp đầy đủ các dịch vụ để giúp tổ chức hoạt động tốt hơn. Bắt đầu từ việc kiến tạo ra các tiêu chuẩn hoàn hảo để đào tạo nhân sự hoạt động hiệu quả hơn, xem xét cách bạn đang làm, và hỗ trợ bạn hoạt động tốt hơn trong tương lai. Có rất ít các tổ chức khác làm công việc này, và không có tổ chức nào làm việc này lâu dài như chúng tôi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Ngoc nam Web Deisgn, Copyright © 2023</p>
+    </footer>
+</body>
+</html>
