@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h2>Đăng Ký Để Nhận Thông Báo Từ Chúng Tôi</h2>
+        <input type="text" name="txtemail" value="Nhập Email">
+        <button>Đăng Ký</button>
+        <h2>Các Dịch Vụ</h2>
+        <ul>
+            <h4><li>Thiết Kế WEBSITE</li></h4>
+            <p>Tạo Website chuyên nghiệp, giá cả phải chăng cho cá nhân, Công Ty, Doanh Nghiệp hoặc tổ chức</p>
+            <h4>Gia :$1.000-$3.000</h4>
+            <h4><li>Bảo Trì WEBSITE</li></h4>
+            <p>Bảo trì WEBSITE chuyên nghiệp, giá cả phải chăng cho cá nhân, Công Ty, Doanh Nghiệp hoặc tổ chức</p>
+            <h4>Gia :$250 moi thang</h4>
+            <h4><li>Web Hosting</li></h4>
+            <p>Web Hosting chuyên nghiệp, giá cả phải chăng cho cá nhân, Công Ty, Doanh Nghiệp hoặc tổ chức</p>
+            <h4>Gia :$25 moi thang</h4>
+        </ul>
+        <h3>Liên Hệ</h3>
+        <label for="ten">Tên: </label>
+        <input type="text" value="Tên"><br>
+        <label for="Email">Email: </label>
+        <input type="text" value="Email"><br>
+        <label for="noidung">Nội Dung: </label>
+        <input type="text" value="Nội dung"><br>
+        <button>Gửi</button>
+    </body>
+</html>
