@@ -1,6 +1,4 @@
 body{
-    padding:0;
-    margin:0;
     background-color:white;
   }
   
@@ -11,14 +9,14 @@ body{
     overflow:hidden;
   }
   
-  ul{
-    margin:0;
-    padding:0;
-  }
-  
-  
-  
-  /* Header **/
+ .container input{
+    width: 100%;
+    padding: 6px 14px;
+    margin: 8px 0;
+    box-sizing: border-box;
+ }
+
+  /* Header */
   header{
     background:rgb(54, 53, 53);
     color:white;
@@ -37,7 +35,7 @@ body{
   header li{
     float:left;
     display:inline;
-    padding: 0 20px 0 20px;
+    padding: 0 18px 0 18px;
   }
   
   header #branding{
@@ -45,7 +43,7 @@ body{
   }
   
   header #branding h1{
-    margin:0;
+    margin:10px;
   }
   
   header nav{
@@ -66,7 +64,7 @@ body{
   /* Showcase */
   #showcase{
     min-height:400px;
-    background:no-repeat 0 -400px;
+    background:no-repeat;
     text-align:center;
     color:black;
   }
@@ -90,4 +88,3 @@ body{
     text-align: center;
   }
   
-
