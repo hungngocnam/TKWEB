@@ -1,1 +1,15 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ut-8">
+    </head>
+    <body>
+        <h2>Đăng Ký Để Nhận Thông Báo Từ Chúng Tôi</h2>
+        <input type="text" name="txtemail" value="Nhập Email">
+        <button>Đăng Ký</button> 
+        <h3>Về Chúng Tôi</h3>
+        <p>Chúng tôi kết hợp hiểu biết sâu sắc về ngành, chuyên môn kỹ thuật và nhiều thập kỷ kinh nghiệm phân phối để mang lại giá trị và tăng tốc cho các nhà cung cấp ...</p>
+        <h3>Dịch Vụ Của Chúng Tôi</h3>
+        <p>Chúng tôi cung cấp đầy đủ các dịch vụ để giúp tổ chức hoạt động tốt hơn. Bắt đầu từ việc kiến tạo ra các tiêu chuẩn hoàn hảo để đào tạo nhân sự hoạt động ...</p>
+    </body>
+</html>
