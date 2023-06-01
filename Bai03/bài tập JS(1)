@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+       <head>             
+       </head>
+       <body>
+        <p>Question</p>
+        <button type="button" onclick="myFunction()">Answer 1</button>   
+        <button type="button" onclick="myFunction()">Answer 2</button>
+        <button type="button" onclick="myFunction()">Answer 3</button>
+        <button type="button" onclick="myFunction()">Answer 4</button><br>
+        <button type="button" onclick="myFunction()">star</button>
+        <button type="button" onclick="myFunction()">Next</button>
+       </body>
+</html>
