@@ -1,1 +1,10 @@
-
+<!DOCTYPE html>
+<html>
+       <head>             
+       </head>
+       <body style="text-align: center; background-color: blue;padding: 20% 40%;">
+        <div style="height: 40px; width: 390px;padding: 13px 0 0; text-align: center; background-color: aliceblue ;border-radius: 4px;";>
+            <button type="button" onclick="myFunction()" style="background-color: aqua;height: 30px;width: 120px;border-radius: 4px;">start</button>
+        </div>
+       </body>
+</html>
