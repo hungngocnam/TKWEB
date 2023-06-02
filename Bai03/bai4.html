@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="doanvan">day la mot doan van.</p>
+    <button onclick="chuyenDoiHienThi()">thay doi hien thi</button>
+
+    <script>
+        function chuyenDoiHienThi(){
+            var doanvan = document.getElementById("doanvan");
+            if(doanvan.style.display === "none"){
+                doanvan.style.display = "block";
+            }else{
+                doanvan.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
